@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(wedding\ main.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #2f2d2d;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #e40f0f;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f00813;
+}
+
+section {
+    padding: 50px 20px;
+}
+section h1{
+    color: #e30d0d;
+    font-size: 50px;
+    text-align: center;
+}
+section p {
+    color: #fff719;
+    font-size: 30px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.dropbox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 250px;
+    height: 50px;
+}
+.cities {
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 20%;
+    height: 50px;
+    color: #333;
+    background-color: rgb(154, 74, 74);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Helvetica';
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.types {
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 20%;
+    height: 50px;
+    color: #333;
+    background-color: rgb(179, 64, 64);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Helvetica';
+    position: absolute;
+    top: 59%;
+    left: 65%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.first {
+    position: absolute;
+    top: 85%;
+    left: 12%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.second {
+    position: absolute;
+    top: 85%;
+    left: 38%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.third {
+    position: absolute;
+    top: 85%;
+    left: 62%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.forth {
+    position: absolute;
+    top: 85%;
+    left: 87%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.first button {
+    background-color: rgb(22, 173, 243);
+    justify-content: center;
+    margin: 5px;
+    position: absolute;
+    top: 110%;
+    left: 7%;
+}
+.first button:hover {
+    background-color: #10f90c;
+}
+.second button{
+    background-color: rgb(22, 173, 243);
+    justify-content: center;
+    margin: 5px;
+    position: absolute;
+    top: 110%;
+    left: 7%;
+}
+.first button:hover {
+    background-color: #10f90c;
+}
+.third button{
+    background-color: rgb(22, 173, 243);
+    justify-content: center;
+    margin: 5px;
+    position: absolute;
+    top: 110%;
+    left: 7%;
+}
+.third button:hover{
+    background-color: #10f90c;
+}
+.forth button{
+    background-color: rgb(22, 173, 243);
+    justify-content: center;
+    margin: 5px;
+    position: absolute;
+    top: 110%;
+    left: 7%;
+}
+.forth button:hover{
+    background-color: #10f90c;
+}
