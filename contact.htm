@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color:rgb(4, 4, 4) ;
+        }
+       
+        
+        .title{
+            color: whitesmoke;
+            text-align: center;
+                background-color:black;
+                width: 50%;
+                height: 450px;
+                border: 5px solid aqua;
+                margin: 20px;
+                font-weight:bolder;
+              
+        }
+
+        .title2{
+            
+            color: whitesmoke;
+            text-align: center;
+                background-color:black;
+                width: 50%;
+                height: 450px;
+                border: 5px solid yellow;
+                margin-top: 20px;
+                font-weight:bolder;
+              
+        }
+        .title .phone{
+            padding: 120px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight:bolder;
+            color:burlywood ;
+        }
+        .title2 .phone2{
+            padding: 120px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight:bolder;
+            color:palevioletred;
+          
+           
+        }
+        button{
+            background-color: white;
+        }
+        button:hover{
+  background-color:darkgreyf;
+        }
+        
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.695);
+}
+.logo img{
+    width: 300px;
+}
+.titlecontainer{
+    /* border: 1px solid white; */
+    display: flex;
+    
+}
+.map{
+    margin-top: 25px;
+}
+input{
+    color: whitesmoke;
+}
+#nav{
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            
+            right:-250px;
+            top: 0;
+            background-color: black;
+            transition: 0.5s;
+
+        }
+        #nav ul li{
+            list-style: none;
+            margin:50px 20px;
+            color:white;
+        }
+        #menubtn{
+            width: 50px;
+            position: fixed;
+            right: 65px;
+            top: 35px;
+        }
+        
+  
+        
+    </style>
+    <script type="text/javascript">
+        function fun(){
+            alert ("Thank You!!,You will be shortly informed about your allotted timeslots");
+        }
+
+    </script>
+</head>
+<body>
+    <section >
+        <div id="nav">
+          <ul>
+              <div id="click">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="nande.html">NEWS & EVENTS</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <!-- <li><a href="conatct.html">CONTACT US</a></li> -->
+          </div>
+          </ul>
+          
+      </div></section>
+    <header>
+        <div class="logo">
+        <img src="Screenshot 2024-03-23 155954.png">
+        </div>
+    </header>
+
+    <div class="titlecontainer">
+    <div class="title">
+        <h2>MEET US </h2><hr>
+        <form>
+           <div class="phone" >
+           Contact with us<br><br>
+        Your Name <input placeholder="abc" required>
+        <br>
+        Contact No.<input placeholder="91*******" required>
+        <br>
+        Email address<input placeholder="abc123@gmail.com" required>
+  </div>
+<div class="button" value="Click me"onclick="fun();">
+    <button type="submit">Submit</button>
+</div>
+</form>
+     </div>
+     <div class="title2">
+     <h2>PITCH US </h2><hr>
+        
+            <form>
+                <div class="phone2">
+                    <div class="pitch">
+                 Hello,<br><br>
+                 My name is <input placeholder="abc" required>and
+                 <br>
+                 My email address is <input placeholder="abc123@gmail.com" required><br>
+
+                </div></div>
+            
+            <div class="button"value="Click me"onclick="fun();">
+                <button type = "submit ">SEND</button>
+            </div> </form>
+        
+           
+        </div>
+    </div>
+</div>
+    
+
+    <div class="map">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6821.4531282625885!2d75.70076613488769!3d31.25599200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1701793641650!5m2!1sen!2sin" width="1500px" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+            
+           
+               
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var nav = document.getElementById("nav")
+        
+    
+        nav.style.right = "-250px"
+        menubtn.onclick = function(){
+            if(nav.style.right =="-250px"){
+                nav.style.right = "0";
+            }
+            else{
+                nav.style.right == "-250px"
+            }
+        }
+    </script>
+           
+               
+</body>
+</html>
